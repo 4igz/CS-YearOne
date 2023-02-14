@@ -1,1 +1,0 @@
-This was a timed projects where I had to design and build webpage with only 6 hours. Needless to say the design did not really get implemented.
