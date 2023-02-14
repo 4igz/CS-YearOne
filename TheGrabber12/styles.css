@@ -1,0 +1,33 @@
+.hand {
+    position: absolute;
+    height: 80px;
+    width: 150px;
+    background-image: url(https://www.nicepng.com/png/detail/410-4103561_reaching-hands-png-hands-reaching-out-to-grab.png);
+    background-size: 100%;
+    background-position: 50%;
+    background-color: black;
+    display: inline-block;
+    border: 0px;
+}
+
+#pointer_hand {
+    size: 3000px 1555px;
+}
+
+#idle_hand {}
+
+#path-renderer {
+    size: 100% 100%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+.projectile {
+    display: block;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-size: 20px 20px;
+}
