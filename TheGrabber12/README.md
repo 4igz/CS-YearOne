@@ -1,1 +1,1 @@
-This one is nothing special. Just a hand that follows your cursor using math. This may or may not be over-engineered. I intended to also make it shoot projectiles and game over if you get hit but I didn't get around to getting it to work.
+This one is nothing special, but my most complicated project on here by far. Just a hand that follows your cursor using math. This may or may not be over-engineered. I intended to also make it shoot projectiles and game over if you get hit but I didn't get around to getting it to work.
