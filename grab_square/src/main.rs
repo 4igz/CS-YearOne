@@ -89,6 +89,7 @@ fn handle_input(
     }
 }
 
+// Disclaimer: I did not come up with most of the math below.
 fn get_cursor_position(
     camera_query: Query<(&Camera, &GlobalTransform), With<Camera>>,
     mut cursor: ResMut<CursorHit>,
