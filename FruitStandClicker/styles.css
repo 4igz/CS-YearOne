@@ -1,0 +1,41 @@
+div,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.fruit-stand {
+    background-image: url("https://media.istockphoto.com/id/520221976/vector/local-market-farmer-selling-vegetables.jpg?s=612x612&w=0&k=20&c=oXvTQkbcDx8yt3iaGrSMYOcH-fRqGLVywow8h-b6g-A=");
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 612px;
+    width: 612px;
+    left: 50%;
+    top: 50%;
+}
+
+#fruit-sale-button {
+    transform: translate(-50%, -10%);
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 40%;
+    top: 92%;
+}
+
+#money-counter {
+    text-align: center;
+    font-size: x-large;
+    left: 50%;
+    top: 10%;
+}
+
+#upgrade-button {
+    transform: translate(-50%, -10%);
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 60%;
+    top: 92%;
+    background-color: red;
+}
