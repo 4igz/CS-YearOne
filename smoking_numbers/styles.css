@@ -1,0 +1,159 @@
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(0 119 161); */
+    background-color: cadetblue;
+}
+
+button {
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 3px;
+    border-radius: 10%;
+    background-color: azure;
+}
+
+#title {
+    color: azure;
+    padding-left: 30px;
+}
+
+#equation-container {
+    display: inline-block;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -60%);
+    position: absolute;
+    height: 20%;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#equation {
+    display: inline-block;
+    position: relative;
+    font-size: xxx-large;
+    color: azure;
+}
+
+#inline-div {
+    position: absolute;
+    left: 15%;
+    width: 85%;
+    height: 93%;
+}
+
+#input {
+    display: inline-block;
+    position: relative;
+    resize: none;
+    font-size: xxx-large;
+    left: .5em;
+}
+
+#regen-button {
+    bottom: 8.2%;
+    height: 6%;
+    font-size: large;
+    position: absolute;
+    left: 20%
+}
+
+#level-text {
+    font-size: x-large;
+    top: 1.5em;
+    right: 2em;
+    position: absolute;
+    text-align: left;
+    width: 150px;
+    color: azure;
+}
+
+#highscore-text {
+    top: 0em;
+    right: 2em;
+    position: absolute;
+    font-size: x-large;
+    width: 150px;
+    color: azure;
+}
+
+#level-timer {
+    font-size: large;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    color: cadetblue
+}
+
+#timer-parent-frame {
+    background-color: rgb(0, 0, 0);
+    border-style: solid none none none;
+    border-color: cadetblue;
+    display: table;
+    width: 85%;
+    align-items: center;
+    height: 6%;
+    bottom: 0;
+    right: 0%;
+    position: absolute;
+}
+
+#timer-bar {
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-style: none;
+}
+
+#equation-iframe {
+    border-style: none solid none none;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    background-color: azure;
+    border-color: cadetblue;
+}
+
+.grid-container {
+    grid-template-rows: 50% 50% 50% 50%;
+    grid-template-columns: 50% 50% 50%;
+    display: grid;
+}
+
+.grid-item {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    color: black;
+    display: inline-grid;
+}
+
+#number-grid {
+    width: 10%;
+    height: 15%;
+    bottom: 25%;
+    position: absolute;
+    left: 48%;
+    justify-items: center;
+    margin: auto;
+    bottom: 35%;
+    transform: translate(-50%, 50%);
+}
+
+.center {
+    transform: translate(-50%);
+    position: absolute;
+    left: 50%;
+}

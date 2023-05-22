@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <iframe id="equation-iframe" src="scrollingframe.html"></iframe>
+    <div id="inline-div">
+        <h1 id="title">Smoking Numbers</h1>
+        <div id="equation-container">
+            <h1 id="equation">5 + 5 =</h1>
+            <span id="input"></span>
+        </div>
+        <div class="grid-container" id="number-grid">
+            <!-- Contains number buttons -->
+            <button class="grid-item">1</button>
+            <button class="grid-item">2</button>
+            <button class="grid-item">3</button>
+            <button class="grid-item">4</button>
+            <button class="grid-item">5</button>
+            <button class="grid-item">6</button>
+            <button class="grid-item">7</button>
+            <button class="grid-item">8</button>
+            <button class="grid-item">9</button>
+            <button class="grid-item">0</button>
+            <button class="grid-item">-</button>
+            <button class="grid-item">CLR</button>
+        </div>
+        <button id="regen-button" class="">New Question</button>
+        <p id="highscore-text">Highscore: 1</p>
+        <p id="level-text">Level: 1</p>
+
+    </div>
+
+    <div id="timer-parent-frame">
+        <div id="timer-bar">
+            <p id="level-timer" class="center">Time Left: 30</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
